@@ -1,6 +1,6 @@
 {
 	"name": "db",
-	"version": 0.111,
+	"version": 0.112,
 	"source": {
 		"source": "github", 
 		"url": "ekkfd/php-lib.db", 
