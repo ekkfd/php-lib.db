@@ -7,7 +7,7 @@
 		// -- [creating connection to database] -- //
 		'connect' => function() {
 			$dbLink = mysqli_connect($GLOBALS['db_config']['hostname'], $GLOBALS['db_config']['username'], $GLOBALS['db_config']['password'], $GLOBALS['db_config']['basename']);
-			for($i = 0; $i < count($GLOBALS['db_config']["sets"]), $i++)
+			for($i = 0; $i < count($GLOBALS['db_config']["sets"]); $i++)
 				mysqli_query($dbLink, $GLOBALS['db_config']['sets'][$i]);
 			return $dbLink;
 		},
@@ -128,7 +128,7 @@
 		// -- [Jack the ripper :D (split the string and removes emptiness)] -- //
 		'Jack' => function($data, $splitter) {
 			$ret = explode($splitter, $data);
-			for($i = count($ret); $i >= 0 ; $i--) {
+			for($i = count($ret); $i >= 0; $i--) {
 				if($ret[$i] == '')
 					array_splice($ret, $i, 1);
 			}
