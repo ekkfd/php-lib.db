@@ -1,6 +1,6 @@
 {
 	"name": "db",
-	"version": 0.113,
+	"version": 0.114,
 	"source": {
 		"source": "github", 
 		"url": "ekkfd/php-lib.db", 
@@ -16,7 +16,7 @@
 		"ignoring": [
 		"db_config.php"
 	],
-	"include_needed": true,
+	"include_needed": false,
 	"developers": {
 		"creator": {
 			"name": "ekkfd",
