@@ -1,0 +1,30 @@
+{
+	"name": "db",
+	"version": 0.1,
+	"source": {
+		"source": "github", 
+		"url": "ekkfd/php-lib.db", 
+		"branch": "dev"
+	},
+	"requirements": [],
+	"structure": [
+		"db.php",
+		"config.json",
+		"db_config-EXAMPLE.php",
+		"readme.md"
+	],
+		"ignoring": [
+		"db_config-EXAMPLE.php"
+	],
+	"include_needed": false,
+	"developers": {
+		"creator": {
+			"name": "ekkfd",
+			"url": "https://github.com/ekkfd/"
+		},
+		"co-author": {
+			"name": "dkh",
+			"url": "https://github.com/dkh-gh/"
+		}
+	}
+}
